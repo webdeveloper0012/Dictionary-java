@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuickDic</string>
+    <string name="titleWithVersion">QuickDic 5.0.1</string>
+
+    <!-- Global. -->
+    <string name="about">Über QuickDic…</string>
+    <string name="settings">Einstellungen…</string>
+    <string name="help">Hilfe</string>
+    <string name="reportIssue">Problem melden…</string>
+    <string name="no_dict_file">Please specify a default directory in the settings.</string>
+
+    <!-- DictionaryManagerActivity -->
+    <string name="dictionaryManager">Wörterbuch-Liste</string>
+    <string name="dictionariesOnDevice">Verfügbare Wörterbücher</string>
+    <string name="downloadableDictionaries">Wörterbücher zum herunterladen</string>
+    <string name="downloadButton">%.1fMB</string>
+    <string name="updateAvailable">Aktualisierung!</string>
+    <string name="moveToTop">Nach Anfang ziehen</string>
+    <string name="deleteDictionary">Wörterbuch entfernen</string>
+    <string name="indexInfo">%1$s: %2$,d Wörter</string>
+    <string name="managerShow">Zeigen</string>
+    <string name="managerHide">Verstecken</string>
+    <string name="error">Error</string>
+    <string name="unableToReadDictionaryDir">Unable to read dictionary directory: \n%1$s\n\nAndroid external storage directory: \n%2$s</string>
+
+    <!-- Download. -->
+    <string name="downloadFailed">Download failed: \n%s.</string>
+    <string name="unzippingDictionary">Unzipping dictionary: \n%s</string>
+    <string name="unzippingFailed">Unzipping failed: \n%s</string>
+    <string name="installationFinished">Installation finished: \n%s.</string>
+    <string name="thanksForUpdatingVersion">4.0.1_en_a</string>
+
+    <!-- DictionaryActivity -->
+    <string name="searchText">Suchtext</string>
+    <string name="selectDictionary">Wörterbuch wählen…</string>
+    <string name="addToWordList">Zum Wortliste hinzufügen: %s</string>
+    <string name="searchForSelection">Suche: %s</string>
+    <string name="failedAddingToWordList">Fehler beim Hinzufügen zur Wortliste: %s</string>
+    <string name="invalidDictionary">Invalid dictionary: file=%1$s, error=%2$s</string>
+    <string name="noSearchResults">Kein Treffer.</string>
+    <string name="aboutDictionary">Über Wörterbuch…</string>
+    <string name="fontFailure">Font failure: %s</string>
+    <string name="seeAlso">vgl.: %1$s (%2$s)</string>
+    <string name="speak">Sprechen</string>
+    <string name="nextWord">Next word</string>
+    <string name="previousWord">Previous word</string>
+    
+    <!-- About dictionary. -->
+    <string name="dictionaryPath">Datei: %s</string>
+    <string name="dictionarySize">Größe: %,d bytes</string>
+    <string name="dictionaryCreationTime">Hergestellt: %tc</string>
+    <string name="indexName">Index: %s</string>
+    <string name="mainTokenCount">Wortzahl: %,d</string>
+    <string name="sources">Quellen</string>
+    <string name="sourceInfo">%1$s : %2$,d Einträge</string>
+
+    <!-- About. -->
+    <string name="contactMe">     Wenn Sie QuickDic benutzen, würde ich gerne von Ihnen hören.
+     Leider kann ich keine Verantwortung für die Wörterbücher (außer Formatierung) nehmen, weil sie aus anderen Quellen erzeugt werden.
+     Danke an Michael Vogel für Hilfe mit dem Icon und den deutschen Übersetzungen.
+     Bitte senden Sie Kommentare, Anregungen, Bug-Reports, oder einfach nur ein kurzes Hallo an:</string>
+    <string name="myEmail" formatted="false">thad.hughes@gmail.com</string>
+    <string name="webPage">Weitere Informationen finden Sie unter:</string>
+    <string name="webPageUrl">http://code.google.com/p/quickdic-dictionary/</string>
+    <string name="contributionsFrom">Contributions from:</string>
+    <string name="license">QuickDic contains code copyrighted by Google and released under the Apache 2.0 license.</string>
+    <string name="licenseUrl">http://www.apache.org/licenses/LICENSE-2.0</string>
+
+    <!-- Preferences -->
+
+    <string name="defaultDicKey">defaultddic</string>
+    <string name="defaultDicTitle">Default Dic</string>
+    <string name="defaultDicSummary">The directory to fired up when nothing else mentioned.</string>
+    <string name="quickdicDirectoryKey">quickdicDirectory</string>
+    <string name="quickdicDirectoryTitle">QuickDic Verzeichnis</string>
+    <string name="quickdicDirectorySummary">Das Verzeichnis, in dem QuickDic die Wörterbücher speichert.</string>
+    <string name="wordListFileKey">wordListFile</string>
+    <string name="wordListFileTitle">Wörterbucheinträge</string>
+    <string name="wordListFileSummary">Die lokale Datei, in die Wörterbucheinträge hinzugefügt werden können.</string>
+    <string name="fontKey">font</string>
+    <string name="fontTitle">Schriftart</string>
+    <string name="fontSummary">Definition der Wörterbuchschrift.</string>
+    <string name="fontSizeKey">fontSize</string>
+    <string name="fontSizeTitle">Schriftgröße</string>
+    <string name="fontSizeSummary">Schriftgröße für die Wörterbucheinträge.</string>
+    <string name="saveOnlyFirstSubentryKey">saveOnlyFirstSubentry</string>
+    <string name="saveOnlyFirstSubentryTitle">Export-Filter</string>
+    <string name="saveOnlyFirstSubentrySummary">Bei mehrfachen Einträgen nur den ersten exportieren.</string>
+    <string name="clickOpensContextMenuKey">clickOpensContextMenu</string>
+    <string name="clickOpensContextMenuTitle">Kontextmenü</string>
+    <string name="clickOpensContextMenuSummary">Kontextmenü bereits bei kurzem Klick auf einen Eintrag öffnen.</string>
+    <string name="showPrevNextButtonsKey">showPrevNextButtons</string>
+    <string name="showPrevNextButtonsTitle">Show up/down buttons</string>
+    <string name="showPrevNextButtonsSummary">Show or hide the previous and next word buttons in the dictionary view.</string>
+    <string name="themeKey">theme</string>
+    <string name="themeTitle">Farbschema</string>
+    <string name="themeSummary">Auswahl des Farbschemas für das Wörterbuch und die Menüs.</string>
+   
+</resources>

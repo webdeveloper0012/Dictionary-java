@@ -1,0 +1,3 @@
+* Internationalize strings.
+* Back button and actionbar button.
+* HtmlEntries inline, expandable.
